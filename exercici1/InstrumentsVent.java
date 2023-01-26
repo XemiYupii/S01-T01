@@ -14,10 +14,8 @@ public class InstrumentsVent extends Instrument {
 	public void tocar () {
 		System.out.println("Està sonant un instrument de vent");
 	}
-	public static void repetir () {
-		System.out.println("també sóc estàtic");
+	public static void tocarDo () {
+		System.out.println("Estic tocant la nota Do");
 	}
 	
 }
-//Els bloc de inicialitzacio s'executen cada vegda k s'instancia un objecte, és igual si el poses dins del constructor o fora.
-//Els bloc estatics només s'executen una sola vegada, tan si s'instancia l'objecte o es fa referència a la classe.

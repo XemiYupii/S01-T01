@@ -14,5 +14,8 @@ public class InstrumentsPercussio extends Instrument {
 	public void tocar () {
 		System.out.println("Està sonant un instrument de percussió");
 	}
+	public static void tocarDo () {
+		System.out.println("Estic tocant la nota Do");
+	}
 
 }
