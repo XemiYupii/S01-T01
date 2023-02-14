@@ -1,4 +1,4 @@
-package exercici1;
+package n1exercici1;
 
 public class App {
 
@@ -7,10 +7,11 @@ public class App {
 		Instrument instrument = new InstrumentsVent ("flauta", 35d);
 		Instrument instrument2 = new InstrumentsCorda ("guitarra", 325d);
 		Instrument instrument3 = new InstrumentsPercussio ("tambor", 123.50);
-		//Instrument instrument4 = new InstrumentsVent ("flauta", 35d);
+		Instrument instrument4 = new InstrumentsVent ("flauta", 35d);
 		
 		InstrumentsVent.tocarDo();
-		InstrumentsCorda.tocarDo();
+		InstrumentsVent.tocarDo();
+	InstrumentsCorda.tocarDo();
 		InstrumentsPercussio.tocarDo();
 		
 		

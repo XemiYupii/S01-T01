@@ -1,8 +1,8 @@
-package exercici1;
+package n1exercici1;
 
-public class InstrumentsCorda extends Instrument {
+public class InstrumentsPercussio extends Instrument {
 	
-	public InstrumentsCorda (String nom, double preu) {
+	public InstrumentsPercussio (String nom, double preu) {
 		super (nom, preu);
 	}
 	{ 
@@ -11,8 +11,9 @@ public class InstrumentsCorda extends Instrument {
 	static {
 		System.out.println("Sóc un bloc estàtic");
 	}
+	@Override
 	public void tocar () {
-		System.out.println("Està sonant un instrument de corda");
+		System.out.println("Està sonant un instrument de percussió");
 	}
 	public static void tocarDo () {
 		System.out.println("Estic tocant la nota Do");

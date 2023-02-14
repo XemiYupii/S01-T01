@@ -1,4 +1,4 @@
-package exercici1;
+package n1exercici1;
 
 public class InstrumentsVent extends Instrument {
 	
@@ -11,6 +11,7 @@ public class InstrumentsVent extends Instrument {
 	static {
 		System.out.println("Sóc un bloc estàtic");
 	}
+	@Override
 	public void tocar () {
 		System.out.println("Està sonant un instrument de vent");
 	}
